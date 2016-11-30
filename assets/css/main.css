@@ -280,7 +280,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #444444;
+	color: #444444;
+	font-weight: bold;
 	}
 
 	blockquote {
@@ -433,7 +434,8 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(239, 100, 128, 0.15);
+	background-color: rgba(239, 100, 128, 0.15);
+	font-family: inherit;
 		}
 
 		input[type="submit"].icon:before,
@@ -1145,11 +1147,12 @@
 			}
 
 			.item header h3 {
-				margin: 0;
-				-moz-pointer-events: none;
-				-webkit-pointer-events: none;
-				-ms-pointer-events: none;
-				pointer-events: none;
+	margin: 0;
+	-moz-pointer-events: none;
+	-webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+	font-family: inherit;
 			}
 
 	.items {
@@ -1367,13 +1370,12 @@
 			}
 
 			#header.alt h1 {
-				font-size: 4em;
-				padding: 0 0.5em 0.25em 0.5em;
-				border-bottom: solid 2px #ffffff;
-				font-weight: 200;
-				font-family: "Pacifico", cursive;
-				text-transform: none;
-				letter-spacing: 0;
+	font-size: 4em;
+	padding: 0 0.5em 0.25em 0.5em;
+	border-bottom: solid 2px #ffffff;
+	font-weight: bold;
+	text-transform: none;
+	letter-spacing: 0;
 			}
 
 			#header.alt p {
