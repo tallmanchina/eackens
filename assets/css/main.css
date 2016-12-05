@@ -91,10 +91,10 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
-		font-weight: 200;
-		line-height: 1.65;
+	font-family: "思源黑体 CN Regular", Gadget, sans-serif;
+	font-size: 17pt;
+	font-weight: 200;
+	line-height: 1.65;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1538,6 +1538,7 @@
 
 		#footer .copyright {
 			font-size: 0.8em;
+			font-family:"Pacifico", Helvetica, sans-serif;
 		}
 
 		@media screen and (max-width: 736px) {
